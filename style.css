@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+:root {
+    --clr-primary-pink: hsl(322, 100%, 66%);
+    --clr-primary-lPink: hsl(321, 100%, 78%);
+    --clr-primary-lRed: hsl(0, 100%, 63%);
+
+    --clr-neutral-vdCyan: hsl(192, 100%, 9%);
+    --clr-neutral-vpBlue: hsl(207, 100%, 98%);
+
+    --fw-default: 400;
+    --fw-semiBold: 600;
+    --fw-bold: 700;
+
+    --ff-openSans: 'Open Sans', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font: inherit;
+}
+
+body {
+    font-family: var(--ff-openSans);
+    margin: 78px;
+    min-height: 100vh;
+}
+
+header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-free {
+    background-color: transparent;
+    border: 2px solid var(--clr-primary-pink);
+    color: var(--clr-primary-pink);
+    border-radius: 50px;
+    padding: 9px 30px;
+    font-size: 1rem;
+}
