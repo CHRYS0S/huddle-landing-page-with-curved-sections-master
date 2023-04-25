@@ -34,6 +34,22 @@ header {
     justify-content: space-between;
 }
 
+main {
+    margin-top: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2 {
+    font-family: var(--ff-poppins);
+    font-size: 34px;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .button-free {
     background-color: transparent;
     border: 2px solid var(--clr-primary-pink);
